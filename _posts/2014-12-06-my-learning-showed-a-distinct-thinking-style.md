@@ -6,7 +6,7 @@ category:  cultural
 tags: [DBC, thinking]
 ---
 {% include JB/setup %}
-###I am not who I was<img src="/assets/imgs/c3.jpg"  alt="JackJackSupercharged" width="20%"/>
+### I am not who I was<img src="/assets/imgs/c2.png"  alt="JackJackSupercharged" width="20%"/>
 <div id="article">
   <p>Before the first phase of the DBC "phase 0", we were requested to read something about mindset and thinking style.  Our reflection and conclusion, if any, was required to submitted before the start of the curriculum.</p>
   <p>"Whatever," I thought, "it's really wired, I'm here to learn development, not Psychology"</p>

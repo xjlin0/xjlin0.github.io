@@ -5,8 +5,8 @@ description: "Father please forgive me since I've sinned&amp;used the [table] ta
 category: tech
 tags: [DBC, CSS, HTML, column, table]
 ---
-{% include JB/setup %} <link rel="stylesheet" href="{{ ASSET_PATH }}xcss/t2-sprite.css" type="text/css" media="screen" charset="utf-8">
-###Father please forgive me since I've sinned&amp;used the [table] tag<img src="/assets/imgs/t2.jpg"  alt="BabyFacingKariFocused" width="20%"/>
+{% include JB/setup %} <link rel="stylesheet" href="{{ ASSET_PATH }}/xcss/t2-sprite.css" type="text/css" media="screen" charset="utf-8">
+### Father please forgive me since I've sinned&amp;used the [table] tag<img src="/assets/imgs/t2.jpg"  alt="BabyFacingKariFocused" width="20%"/>
 
 <div id="article">
   <p>Lots of texts we read are presented in columns, thus it's naturally web developers want to split paragraph into columns for better design and visual effects. Also if we have several things on the webpages and we'd like to put it together <strong>side by side</strong>, column arrangements are also handy. In the past the [table][tb][tr] HTML tags were pretty efficient, but now the trend has turned to use CSS for some reasons. Here are some CSS table tricks:</p>
