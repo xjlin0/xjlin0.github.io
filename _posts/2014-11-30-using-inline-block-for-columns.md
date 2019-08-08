@@ -5,7 +5,7 @@ description: "Father please forgive me since I've sinned&amp;used the [table] ta
 category: tech
 tags: [DBC, CSS, HTML, column, table]
 ---
-{% include JB/setup %} <link rel="stylesheet" href="{{ ASSET_PATH }}/xcss/t2-sprite.css" type="text/css" media="screen" charset="utf-8">
+{% include JB/setup %} <link rel="stylesheet" href="/assets/xcss/t2-sprite.css" type="text/css" media="screen" charset="utf-8">
 ### Father please forgive me since I've sinned&amp;used the [table] tag<img src="/assets/imgs/t2.jpg"  alt="BabyFacingKariFocused" width="20%"/>
 
 <div id="article">
