@@ -30,9 +30,9 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : https://xjlin0.github.io
-
-plugins: ["jekyll-sitemap"]
-
+url: "https://xjlin0.github.io"
+plugins:
+  - jekyll-sitemap
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
