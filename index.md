@@ -5,7 +5,7 @@ tagline: Web Incredibles
 ---
 {% include JB/setup %}
 
-Welcome to visit the site of Jack Jack Attack! As a software engineer at Castlight Health<a href="https://www.castlighthealth.com/"></a>, my blog here includes some discussions in certain web development topics, such as JavaScript, Ruby and Rails. Thanks for coming and looking forward to have your tweets on <a href="https://twitter.com/?status=@xjlin0">@xjlin0</a> or your comments on disqus.
+Welcome to visit the site of Jack Jack Attack! As a software engineer at <a href="https://www.castlighthealth.com/">Castlight Health Inc</a>, my blog here includes some discussions in certain web development topics, such as JavaScript, Ruby and Rails. Thanks for coming and looking forward to have your tweets on <a href="https://twitter.com/?status=@xjlin0">@xjlin0</a> or your comments on disqus.
 
 ### Some of my thoughts:
 
