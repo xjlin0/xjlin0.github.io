@@ -85,9 +85,13 @@ It is fine to show user what time zone is being used, even [the abbreviations ar
 ```html
 {% raw %}
 <p>
-    {{ current_user.last_visited_at }} {{timezone_name}}
+    You last visited at {{ current_user.last_visited_at }} {{timezone_name}}
 </p>
+When do you want to go?
+<input type="datetime-local" name="departure-time">
 {% endraw %}
 ```
 
-The caveat of this implementation is when user system time changes due to daylight saving time or user traveling. If user still have the session, he/she will see the page remain in the old time timezone.  It may not be a very common issue. Since there's no browser event for system time change, the workaround is to reload page or periodically update cookie by JavaScript.
+And voilà! the time will be shown in user time zone, even it was originally stored on the server in UTC time zone.  Moreover, when user inputs their time, the saved record at the server will be automatically converted back to UTC. Isn't that great?
+
+The caveat of the implementation can be spotted when user system time changes due to daylight saving time or user traveling. If user still have the session, he/she will see the page remain in the old time timezone.  It may not be a common issue with shorter SESSION_COOKIE_AGE. Since there's no browser event for system time change, the workaround is to reload page or periodically update cookie by JavaScript.
