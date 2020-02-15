@@ -62,6 +62,15 @@ class TimezoneMiddleware(MiddlewareMixin):
         timezone.activate(pytz.timezone(parse.unquote(tzname)))
 ```
 
+And then add our new magic TimezoneMiddleware in the Django settings.py:
+```python
+CLIENT_DEFAULT_TIME_ZONE = "pick a time zone, i.e. America/Los_Angeles"
+
+MIDDLEWARE = [
+	## other Middlewares
+	"app.middleware.TimezoneMiddleware",
+```
+
 To make user see what time zone is shown, we also declare a time zone variable to store time zone abbreviation, such as ```PDT```.
 
 ```python
