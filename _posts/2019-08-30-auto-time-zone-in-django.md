@@ -80,7 +80,7 @@ def common_variables(request):
 
 ```
 
-And then add our new magic TimezoneMiddleware and new varialbe in the Django settings.py:
+And then add our new magic TimezoneMiddleware and the new variable in the Django settings.py:
 ```python
 CLIENT_DEFAULT_TIME_ZONE = "pick a time zone, i.e. America/Los_Angeles"
 
