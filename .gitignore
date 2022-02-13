@@ -6,5 +6,6 @@ Thumbs.db
 
 !.gitkeep
 
+.ruby-version
 .rbenv-version
 .rvmrc
