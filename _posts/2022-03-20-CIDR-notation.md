@@ -27,14 +27,14 @@ body:not(:has(input#on-use:checked))      table.toggle tr :nth-child(4) {
 }
 ```
 
-Note: Please be aware of that, if there are cells with `colspan`, toggling the columns containing first cells will remove the entire row.  For example, the Polysporin row below. 
+Note: Please be aware of that, if there are cells with `colspan`, toggling the column containing first cell will remove the entire row.  For example, toggling Column Name will entirely remove the Polysporin row below. 
 
 <div class="checkboxes" style="display:flex;">
     <input style="width: 2%;" id="on-category" type="checkbox" checked />
     <label for="on-category">Toggle Column Category</label>
     <div style="flex-grow: 1;"></div>
     <input style="width: 2%;" id="on-name" type="checkbox" checked />
-    <label for="on-name">Toggle Column ame</label>
+    <label for="on-name">Toggle Column Name</label>
     <div style="flex-grow: 1;"></div>
     <input style="width: 2%;" id="on-type" type="checkbox" checked />
     <label for="on-type">Toggle Column Type</label>
@@ -83,7 +83,7 @@ Note: Please be aware of that, if there are cells with `colspan`, toggling the c
 		</tr>
 		<tr>
 			<td rowspan="2" style="vertical-align: middle; background-color: Bisque;">Antibiotics &amp; Antiseptics</td>
-			<td colspan="3" style="text-align: center; background-color: Beige;">Double antibiotic ointment (Polysporin)</td>
+			<td colspan="3" style="text-align: center; background-color: Chocolate;">Double antibiotic ointment (Polysporin)</td>
 		</tr>
 		<tr>
 			<td>Hibiclens cleanser</td>
