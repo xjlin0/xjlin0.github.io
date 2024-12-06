@@ -1,0 +1,6 @@
+body:not(:has(input#on-category:checked)) table.toggle tr :nth-child(1),
+body:not(:has(input#on-name:checked))     table.toggle tr :nth-child(2),
+body:not(:has(input#on-type:checked))     table.toggle tr :nth-child(3),
+body:not(:has(input#on-use:checked))      table.toggle tr :nth-child(4) {
+  display: none;
+}
